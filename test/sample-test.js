@@ -1,8 +1,7 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
-const { ethers, upgrades } = require('hardhat');
-const KKirico_Token = artifacts.require("KKirico_Token");
-const {upgradeProxy} = require("KKirico_Token");
+const { upgrades } = require('hardhat');
+
 
 // describe("Greeter", function () {
 //   it("Should return the new greeting once it's changed", async function () {
